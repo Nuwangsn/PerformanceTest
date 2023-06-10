@@ -9,6 +9,7 @@ export const options = {
 }
 
 export default function () {
+    // this is the running function
     http.get('https://test-api.k6.io/public/crocodiles/1/');
     sleep(1);
 };
