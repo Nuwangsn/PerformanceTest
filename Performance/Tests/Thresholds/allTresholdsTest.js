@@ -20,10 +20,12 @@ export default function () {
     const res = http.get('https://test-api.k6.io/public/crocodiles/1/');
     const contentOK = res.json('name') === 'Bert';
 
-    TrendRTT.add(res.timings.duration);
+    TrendRTT.add(res.timings.duration); // adding comment to the trend
     RateContentOK.add(contentOK);
     GaugeContentSize.add(res.body.length);
     CounterErrors.add(!contentOK);
 
     sleep(1);
+
+    console.log("added line to print to test github");
 }
