@@ -5,6 +5,8 @@ export const options = {
     thresholds: {
         // 90% of request must finish within 400ms
         http_req_duration: ['p(90)<400'],
+        // Within whole test execution error rate should be less than 1%
+        http_req_failed:['rate<0.01'],
     },
 }
 
