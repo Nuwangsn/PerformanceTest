@@ -1,0 +1,52 @@
+{
+    "users": [
+        {
+            "username": "test",
+            "password": "qwerty"
+        },
+        {
+            "username": "nuwansameera",
+            "password": "test123@"
+        },
+        {
+            "username": "nuwansameera1",
+            "password": "test123@"
+        },
+        {
+            "username": "nuwansameera2",
+            "password": "test123@"
+        },
+        {
+            "username": "nuwansameera3",
+            "password": "test123@"
+        },
+        {
+            "username": "nuwansameera4",
+            "password": "test123@"
+        },
+        {
+            "username": "nuwansameera5",
+            "password": "test123@"
+        },
+        {
+            "username": "nuwansameera6",
+            "password": "test123@"
+        },
+        {
+            "username": "nuwansameera7",
+            "password": "test123@"
+        },
+        {
+            "username": "nuwansameera8",
+            "password": "test123@"
+        },
+        {
+            "username": "nuwansameera9",
+            "password": "test123@"
+        },
+        {
+            "username": "nuwansameera10",
+            "password": "test123@"
+        }
+    ]
+}
