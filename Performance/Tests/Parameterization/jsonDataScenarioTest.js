@@ -21,3 +21,5 @@ export default function(){
     const user = data[scenario.iterationInTest];
     console.log(`user : ${JSON.stringify(user)}`);
 }
+
+console.log(" test test test");
